@@ -1,0 +1,120 @@
+* {
+  /* position: relative; */
+  top: 0;
+  bottom: 0;
+  width: 1440px;
+  height: 800px;
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: #ff7979;
+}
+
+.intro {
+  position: absolute;
+  width: 525px;
+  height: 220px;
+  left: 165px;
+  top: 290px;
+}
+
+.subscription {
+  position: absolute;
+  width: 540px;
+  height: 60px;
+  left: 735px;
+  top: 121px;
+  background-color: #5e54a4;
+}
+
+#subscriptionText {
+  position: absolute;
+  height: 26px;
+  left: 20.56%;
+  right: 20.37%;
+  top: calc(50% - 26px / 2);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+  text-align: center;
+  letter-spacing: 0.267857px;
+
+  color: #ffffff;
+}
+
+.form {
+  position: absolute;
+  width: 540px;
+  height: 474px;
+  left: 735px;
+  top: 205px;
+}
+/* 
+.subscription-child {
+  margin: 0 auto;
+  max-width: 100%;
+} */
+
+.text1 {
+  position: absolute;
+  height: 131px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 131px / 2 - 44.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  /* or 110% */
+
+  letter-spacing: -0.520833px;
+
+  color: #ffffff;
+}
+
+.text2 {
+  position: rel;
+  height: 78px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 78px / 2 + 71px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* or 162% */
+
+  color: #ffffff;
+}
+
+/* .subscr1{
+  position: relative;
+} */
+
+/* .subscriptionText {
+  position: absolute;
+  height: 26px;
+  left: 20.74%;
+  right: 20.74%;
+  top: calc(50% - 26px / 2);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+/* text-align: center;
+  letter-spacing: 0.267857px;
+
+  color: #ffffff;
+} */
